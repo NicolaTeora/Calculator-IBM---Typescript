@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TSC try</title>
+
+    <script src="./app.js" defer></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Calculate Your I B M</h1>
+
+      <form>
+        <div class="form-control">
+          <input
+            id="name"
+            class="input input-alt"
+            placeholder="Ins. your Name"
+            required
+            type="text"
+          />
+          <span class="input-border input-border-alt"></span>
+        </div>
+
+        <div class="form-control">
+          <input
+            id="height"
+            class="input input-alt"
+            placeholder="Height (m,cm):"
+            required
+            type="number"
+            step="0.1"
+          />
+          <span class="input-border input-border-alt"></span>
+        </div>
+
+        <div class="form-control">
+          <input
+            id="weight"
+            class="input input-alt"
+            placeholder="Weight:"
+            required
+            type="number"
+          />
+          <span class="input-border input-border-alt"></span>
+        </div>
+
+        <div class="btn">
+          <button type="button" id="submit">Calculate</button>
+          <button type="reset" id="clear">Reset</button>
+        </div>
+      </form>
+
+      <p id="test"></p>
+    </div>
+  </body>
+</html>
