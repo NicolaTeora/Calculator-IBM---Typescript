@@ -14,7 +14,7 @@ sendTest.addEventListener("click", function () {
 
   let test = document.getElementById("test") as HTMLElement;
 
-  let bmi = weightP / heightP ** 2;
+  let bmi: number = weightP / heightP ** 2;
 
   bmi
     ? (test.innerHTML = `Hi ${nameP} your IBM, based on the data entered is: ${bmi.toFixed(
